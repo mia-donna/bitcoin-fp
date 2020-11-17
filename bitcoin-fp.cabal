@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 20a9069bc419374dc29734ba674cf21525ca41424cdd20568c47f02ede47b4aa
+-- hash: 2d309f2b7b0496c753ae6febc63aa3f53a9252887971cce4def5808912d6d0c8
 
 name:           bitcoin-fp
 version:        0.1.0.0
@@ -27,7 +27,9 @@ source-repository head
 
 library
   exposed-modules:
-      Lib
+      Database
+      HTTP
+      Parse
   other-modules:
       Paths_bitcoin_fp
   hs-source-dirs:
